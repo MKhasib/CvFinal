@@ -34,12 +34,11 @@ h3, a {
 .top-container {
   position: relative;
   background-color: #E4F9F5;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .middle-container {
-  margin: 100px 0;
-}
+padding: 100px 0;}
 
 .bottom-container {
   background-color: #66BFBF;
@@ -65,7 +64,7 @@ h3, a {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 40px;
+  top: 140px;
 }
 
 .profile-picture {
@@ -149,4 +148,7 @@ a:hover{
   color: #EAF6F6;
   font-size: 1rem;
   padding: 20px 0;
+}
+.header{
+  font-size:1.7rem;
 }

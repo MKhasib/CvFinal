@@ -4,13 +4,33 @@
 <head>
   <meta charset="utf-8">
   <title>Majd Khasib - a web designer✔</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="images/boy.png">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <div class="top-container">
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark  " style="background-color: #0fabbc;">
+      <a class="navbar-brand mb-0 h1 header " href="#top">
+  🐱‍🚀 MKhasib
+      </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     <div class="collapse navbar-collapse"id="navbarToggler">
+          <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link header " href="#about">About</a> </li>
+          <li class="nav-item">
+              <a class="nav-link header " href="#skills">Skills</a> </li>
+          <li class="nav-item">
+              <a class="nav-link  header" href="#contact">Contact</a> </li>
+      </ul>
+     </div>
+  </nav>
+  <div class="top-container" id="top">
     <img class="top-cloud" src="images/cloud.png" alt="clouds">
     <h1>I'm Majd.</h1>
     <h2><span class="android">Android</span> developer</h2>
@@ -18,15 +38,15 @@
     <img src="images/mountain.png" alt="clouds">
 
   </div>
-  <div class="middle-container">
+  <div class="middle-container" id="about">
     <div class="profile">
       <img class="profile-picture" src="images/majd.jpg" alt="my picture">
       <h2>Welcome🙌</h2>
       <p class="intro">I'm an Android and Web Developer.I'm Student at Birzeit Unversity. I 🧡 Cats</p>
     </div>
     <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
+    <div class="skills" id="skills">
+      <h2>My Skills</h2>
       <div class="skill-row">
         <img class="design-img" src="images/browser.png" alt="Design picture">
         <h3>Design & Development</h3>
@@ -39,7 +59,7 @@
           </div>
     </div>
     <hr>
-    <div class="contact-me">
+    <div class="contact-me" id="contact">
       <h2>Get In Touch</h2>
       <h3>If Love changing lifes as much as i do? </h3>
       <p >Love changing lifes as much as i do? Let's talk about how amazing things we can make together to make people happier!
